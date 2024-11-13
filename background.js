@@ -17,7 +17,7 @@ const AI_SERVICES = {
   chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
       id: CONTEXT_MENU_ID,
-      title: 'Search with AI',
+      title: 'Search as AI prompt',
       contexts: ['selection']
     });
   });
