@@ -33,10 +33,8 @@
     <img src="assets/banner.jpg" alt="Logo">
   </a>
 
-<h3 align="center">project_title</h3>
-
   <p align="center">
-    project_description
+    streamlines AI research by letting you instantly search highlighted text in ChatGPT or Perplexity with a single keyboard shortcut. Save time with customizable prepended prompts - perfect for quick analysis, translations, or research tasks.
     <br />
     <a href="https://github.com/silveralcid/pastePrompt"><strong>Explore the docs »</strong></a>
     <br />
