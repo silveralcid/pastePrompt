@@ -80,3 +80,13 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const customizeLink = document.querySelector('.customize-shortcut');
+    customizeLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      chrome.tabs.create({
+        url: 'chrome://extensions/shortcuts'
+      });
+    });
+  });

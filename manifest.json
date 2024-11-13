@@ -31,12 +31,13 @@
       "service_worker": "background.js"
     },
     "commands": {
-      "search-with-ai": {
+        "search-with-ai": {
         "suggested_key": {
-          "default": "Ctrl+Shift+S",
-          "mac": "Command+Shift+S"
+            "default": "Ctrl+Shift+S",
+            "mac": "Command+Shift+S"
         },
-        "description": "Search selected text with AI"
-      }
+        "description": "Search selected text with AI",
+        "global": false
+        }
     }
 }

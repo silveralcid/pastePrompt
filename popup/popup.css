@@ -116,12 +116,25 @@ label {
 
 /* Utility Classes */
 .shortcut-note {
-  margin: var(--spacing-xs) 0 var(--spacing-md) 0;
-  color: var(--secondary-text);
-  font-size: 10px;
-  text-align: center;
-  font-family: var(--font-family);
-}
+    margin: var(--spacing-xs) 0 var(--spacing-md) 0;
+    color: var(--secondary-text);
+    font-size: 10px;
+    text-align: center;
+    font-family: var(--font-family);
+  }
+  
+  .customize-shortcut {
+    display: block;
+    margin-top: 4px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .customize-shortcut:hover {
+    text-decoration: underline;
+  }
 
 .coffee-link {
   display: block;
