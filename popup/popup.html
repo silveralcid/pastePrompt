@@ -18,16 +18,14 @@
     <main>
       <form id="aiForm">
         <div class="form-group">
-          <label for="aiService">Select Default AI Service</label>
+          <label for="aiService">Default AI Service</label>
           <select id="aiService" class="dropdown" name="aiService">
             <option value="perplexity" selected>Perplexity</option>
             <option value="chatgpt">ChatGPT</option>
           </select>
         </div>
 
-        <div class="shortcut-note" aria-label="Keyboard shortcut">
-          Shortcut: <kbd>Cmd/Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
-        </div>
+
 
         <div class="form-group">
           <label for="prependText">Prepend Prompt (Optional)</label>
@@ -48,6 +46,9 @@
          aria-label="Support developer with a coffee donation">
         ☕ Buy me a coffee
       </a>
+      <div class="shortcut-note" aria-label="Keyboard shortcut">
+        Shortcut: <kbd>Cmd/Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+      </div>
     </footer>
   </div>
   <script src="popup.js" defer></script>
