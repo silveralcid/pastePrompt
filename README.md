@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/silveralcid/pastePrompt">
-    <img src="assets/banner.jpg" alt="Logo" width="80" height="80">
+    <img src="assets/banner.jpg" alt="Logo">
   </a>
 
 <h3 align="center">project_title</h3>
