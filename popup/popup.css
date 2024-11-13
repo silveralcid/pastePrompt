@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'San Francisco', 'Helvetica Neue', sans-serif;
+    color: #202124;
+    min-width: 200px;
+  }
+  
+  .container {
+    width: 200px;
+    padding: 16px;
+  }
+  
+  h2 {
+    font-size: 13px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #5f6368;
+    font-weight: 500;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: white;
+    color: #202124;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M7%2010L0%203h14z%22%2F%3E%3C%2Fsvg%3E');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+  }
+  
+  .dropdown:hover {
+    background-color: #f8f9fa;
+    border-color: #dadce0;
+  }
+  
+  .dropdown:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26,115,232,0.1);
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #dadce0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    color: #202124;
+  }
+  
+  .text-input:hover {
+    border-color: #dadce0;
+    background-color: #f8f9fa;
+  }
+  
+  .text-input:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26,115,232,0.1);
+  }
+  
+  .text-input::placeholder {
+    color: #5f6368;
+  }
+  
+  .shortcut-note {
+    margin-top: 6px;
+    color: #5f6368;
+    font-size: 11px;
+    text-align: center;
+  }
+  .coffee-link {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    padding: 8px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+  
+  .coffee-link:hover {
+    background-color: rgba(26,115,232,0.1);
+  }

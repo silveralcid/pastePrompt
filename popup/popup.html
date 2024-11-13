@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Select Default AI Service</h2>
+    <select id="aiService" class="dropdown">
+      <option value="perplexity" selected>Perplexity</option>
+      <option value="chatgpt">ChatGPT</option>
+    </select>
+    <div class="shortcut-note">
+        Shortcut: Cmd/Ctrl + Shift + S
+    </div>
+    <h2>Prepend Prompt (Optional)</h2>
+    <input type="text" id="prependText" class="text-input" placeholder="e.g., do sentiment analysis for:">
+    
+
+    <a href="https://buymeacoffee.com/silveralcid" target="_blank" class="coffee-link">
+      ☕ Buy me a coffee
+    </a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
