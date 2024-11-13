@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "pastePrompt",
-    "description": "Turn any selected text into an instant AI query. Skip the copy-paste workflow and launch searches directly in ChatGPT or Perplexity. Customize prepended prompts to automate repetitive research tasks with a single shortcut.",
+    "description": "Select text to instantly query AI. Launch searches in ChatGPT/Perplexity. Add custom prompts to speed up research via shortcuts.",
     "version": "1.0",
     "icons": {
         "16": "icons/icon16.png",
