@@ -1,4 +1,3 @@
-// Create context menu item
 chrome.runtime.onInstalled.addListener(() => {
     chrome.contextMenus.create({
       id: "searchAI",
@@ -7,13 +6,10 @@ chrome.runtime.onInstalled.addListener(() => {
     });
   });
   
-  // Function to handle the AI search
   async function handleAISearch() {
     try {
-      // Get the current active tab
       const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
       
-      // Execute script to get selected text
       const [{ result }] = await chrome.scripting.executeScript({
         target: { tabId: tab.id },
         function: () => window.getSelection().toString()
@@ -43,7 +39,6 @@ chrome.runtime.onInstalled.addListener(() => {
     }
   }
   
-  // Handle context menu clicks
   chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "searchAI") {
       const selectedText = info.selectionText;
@@ -68,7 +63,6 @@ chrome.runtime.onInstalled.addListener(() => {
     }
   });
   
-  // Handle keyboard shortcuts
   chrome.commands.onCommand.addListener((command) => {
     if (command === "search-with-ai") {
       handleAISearch();
