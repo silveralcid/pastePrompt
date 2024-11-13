@@ -30,14 +30,11 @@
 <br />
 <div align="center">
   <a href="https://github.com/silveralcid/pastePrompt">
-    <img src="assets/banner.jpg" alt="Logo">
+    <img src="assets/banner.png" alt="Logo">
   </a>
 
   <p align="center">
-    streamlines AI research by letting you instantly search highlighted text in ChatGPT or Perplexity with a single keyboard shortcut. Save time with customizable prepended prompts - perfect for quick analysis, translations, or research tasks.
-    <br />
-    <a href="https://github.com/silveralcid/pastePrompt"><strong>Explore the docs »</strong></a>
-    <br />
+    Hackathon Submission for <a href="https://ghw.mlh.io/">MLH Global Hack Week: Career Week 2024</a>
     <br />
     <a href="https://github.com/silveralcid/pastePrompt">View Demo</a>
     ·
@@ -51,12 +48,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -67,15 +59,13 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `silveralcid`, `pastePrompt`, `silveralcid`, `silveralcid`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+pastePrompt; is a extremely lightweight chrome extension that streamlines AI research by letting you instantly search highlighted text in ChatGPT or Perplexity with a single keyboard shortcut. Save time with customizable prepended prompts - perfect for quick analysis, translations, or research tasks.
 
 ### Built With
 
 - [![JavaScript][JavaScript]][JavaScript-url]
+
+[![Product Name Screen Shot][product-screenshot]](https://github.com/silveralcid/pastePrompt)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +102,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Silver Alcid - [@silveralcid](https://twitter.com/silveralcid) - email@email_client.com
+Silver Alcid - [@silveralcid](https://twitter.com/silveralcid) - silveralcid@outlook.com
 
 Project Link: [https://github.com/silveralcid/pastePrompt](https://github.com/silveralcid/pastePrompt)
 
@@ -133,6 +123,6 @@ Project Link: [https://github.com/silveralcid/pastePrompt](https://github.com/si
 [license-url]: https://github.com/silveralcid/pastePrompt/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/silveralcid
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/screenshot.png
 [JavaScript]: https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
