@@ -59,7 +59,7 @@
 
 ## About The Project
 
-pastePrompt; is a extremely lightweight chrome extension that streamlines AI research by letting you instantly search highlighted text in ChatGPT or Perplexity with a single keyboard shortcut. Save time with customizable prepended prompts - perfect for quick analysis, translations, or research tasks.
+pastePrompt; is an extremely lightweight Chrome extension that streamlines AI research by letting you instantly prompt highlighted text in ChatGPT or Perplexity with a single keyboard shortcut. Save time with customizable prepended prompts - perfect for quick analysis, translations, or research tasks.
 
 ### Built With
 
